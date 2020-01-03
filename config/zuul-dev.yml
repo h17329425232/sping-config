@@ -24,4 +24,7 @@ ribbon:
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
 
-
+spring:
+  cloud:
+    config:
+      override-none: true
