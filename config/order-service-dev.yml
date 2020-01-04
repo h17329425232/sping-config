@@ -25,4 +25,8 @@ management:
 spring:
   cloud:
     config:
-      override-none: true   
+      override-none: true  
+spring:
+  sleuth:
+    sampler:
+      probability: 0.1       

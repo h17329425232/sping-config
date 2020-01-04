@@ -33,3 +33,7 @@ spring:
   cloud:
     config:
       override-none: true
+spring:
+  sleuth:
+    sampler:
+      probability: 0.1
